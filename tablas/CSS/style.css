@@ -1,0 +1,42 @@
+body{
+    background-color: lightgreen;
+}
+.myEstilo{
+    background-color: blueviolet;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 50px;
+}
+table{
+    width: 100%;
+    background-color: crimson;
+    border: 2px solid black;
+    border-collapse: initial;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+th{
+    background-color: darkcyan;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 25px;
+    color: black;
+
+}
+td{
+    background-color: chartreuse;
+    color: black;
+    text-align: center;
+}
+.estiloPorClase{
+    background-color: red;
+}
+.estiloPorClase2{
+    font-size: 100px;
+}
+
+
+

@@ -1,0 +1,86 @@
+#myId{
+    background: green;
+
+}
+#youId{
+    background-color: darkgoldenrod;
+
+}
+#silviaId{
+    background-color: blueviolet;
+
+}
+
+/* hay medidas estaticas y dinamicas */
+/* dando estilo al body */
+body{
+    background-color: #38425C;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#cc9724;
+}
+/* clase para los titulos centrales de cada tema*/
+.titulo{
+    background-color: #4760a1;
+    /* con width damos el tamaño del margen que requiere */
+
+    width: 60%;
+    /* con margin damos el espacio que queremos
+     left ( de izquierda a derecha)
+    rigth (de derecha a izquierda)
+     top ( de arriba hacia abajo) bottom( del centro hacia abajo) */
+    margin-left: 20%;
+    /* tex nos ayuda  a mandar o centrar el texto  */
+    text-align: center;
+    color:white;
+    /* border nos ayuda a redondear el margen */
+    border-radius: 20px;
+}
+/* selector por nombre de etiqueta p  */
+p{
+    background-color: purple;
+    font-size: 5mm;
+    line-height: 10mm;
+    text-align: center;
+
+}
+/* selector por clase de nombre centimetros */
+.centimetros{
+    /* se pone fondo amarillo (background) */
+    background-color: #cc9724;
+    /* se puso el tammaño de la fuente de 5 cm */
+    font-size: 5cm;
+    /* aqui damos la separacion de cada linea o ancho de cada linea de 4 cm */
+    line-height: 4cm;
+    /* con tex-align mandamos al texto hacia la derecha */
+    text-align: right;
+    /* con color le damos color a la fuente, contenido, texto (negro) */
+    color: black;
+}
+/* selector por clase de nombre  pulgadas */
+.pulgadas{
+
+    /* damos tamaño a la fuente (0.4 pulgadas) */
+    font-size: 0.7in;
+    /* con tex-align cargamos el texto hacia donde queremos (derecha)  */
+    text-align: right;
+    /* le damos color a la fuente(combinacion de color rgb) */
+    color: rgb(240, 70, 70);
+    /* le damos color al fondo (blanco) */
+    background-color: white;
+    
+}
+/* selector por clase de nombre pixeles */
+.pixeles{
+    /* le damos color al fondo (color agua) */
+    background-color: aqua;
+    /* le damos tamaño a la fuente en pixeles (20 pixeles) */
+    font-size: 20px;
+    /* el color de la fuente color rojo */
+    color: darkred;
+    
+
+}
+
+
+
+

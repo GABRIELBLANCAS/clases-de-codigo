@@ -1,0 +1,53 @@
+body{
+    font-family: serif;
+}
+
+
+.site-header{
+    /* propiedad de imagen de fondo */
+   background-image: url(../img/header.jpg);
+   /* propiedad la imagen tenga el total e la ventana */
+   height: 100vh;
+   /* inicia la posicion de la imagen */
+   background-position: center;
+   /* tamaño de la imagen forza el tamaño */
+   background-size: cover; 
+    
+}
+.contenedor{
+    border: 2px solid cyan;
+    /*  */
+    max-width: 1200px;
+    /* para centrar el elemeto */
+    margin: 0 auto 0 auto;
+}
+.barra{
+    /* esta propiedad es para dar margen en la parte superior */
+    /* margin-top: 30%; */
+    border: 2px solid rgb(21, 255, 0);
+    /* esta propiedad alinea los elementos (display flex) */
+    display: flex; justify-content: space-between;
+    padding-top: 15px;
+    /* alinea items */
+    align-items: center;
+}
+.navegacion a{
+    /* asigna el color de la letra */
+    color: white;
+    /* decoracion de texto (con none le decimos que no decore) */
+    text-decoration: none;
+    font-size: 15px;
+    padding: 15px;
+}
+/* seudoselectores */
+.navegacion a:hover{
+    color: orange;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+
+}
+.pie-contenedor{
+    border: 2px solid orangered;
+    margin-top: 33%;
+    color: white;
+}

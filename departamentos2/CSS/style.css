@@ -1,0 +1,570 @@
+
+/* estilo para proyecto departamentos */
+/* recursos */
+/* paleta de colores */
+
+/* As hex codes */
+
+.color-primary-0 { color: #5D5D5D }	/* Main Primary color */
+.color-primary-1 { color: #B7B5B5 }
+.color-primary-2 { color: #8A8A8A }
+.color-primary-3 { color: #262626 }
+.color-primary-4 { color: #010101 }
+
+.color-secondary-1-0 { color: #383838 }	/* Main Secondary color (1) */
+.color-secondary-1-1 { color: #6D6E6E }
+.color-secondary-1-2 { color: #535353 }
+.color-secondary-1-3 { color: #171717 }
+.color-secondary-1-4 { color: #010101 }
+
+.color-secondary-2-0 { color: #575757 }	/* Main Secondary color (2) */
+.color-secondary-2-1 { color: #AAABA9 }
+.color-secondary-2-2 { color: #818180 }
+.color-secondary-2-3 { color: #232323 }
+.color-secondary-2-4 { color: #010101 }
+
+
+
+/* As RGBa codes */
+
+.rgba-primary-0 { color: rgba( 93, 93, 93,1) }	/* Main Primary color */
+.rgba-primary-1 { color: rgba(183,181,181,1) }
+.rgba-primary-2 { color: rgba(138,138,138,1) }
+.rgba-primary-3 { color: rgba( 38, 38, 38,1) }
+.rgba-primary-4 { color: rgba(  1,  1,  1,1) }
+
+.rgba-secondary-1-0 { color: rgba( 56, 56, 56,1) }	/* Main Secondary color (1) */
+.rgba-secondary-1-1 { color: rgba(109,110,110,1) }
+.rgba-secondary-1-2 { color: rgba( 83, 83, 83,1) }
+.rgba-secondary-1-3 { color: rgba( 23, 23, 23,1) }
+.rgba-secondary-1-4 { color: rgba(  1,  1,  1,1) }
+
+.rgba-secondary-2-0 { color: rgba( 87, 87, 87,1) }	/* Main Secondary color (2) */
+.rgba-secondary-2-1 { color: rgba(170,171,169,1) }
+.rgba-secondary-2-2 { color: rgba(129,129,128,1) }
+.rgba-secondary-2-3 { color: rgba( 35, 35, 35,1) }
+.rgba-secondary-2-4 { color: rgba(  1,  1,  1,1) }
+
+/*fuentes  */
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+
+/* ESTILOS GENERALES */
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ESTILOS PARTICULARES */
+
+/* estilo del header con el id cabecera */
+#cabecera{
+    /* dotted nos da borde con estilo punteado */
+    /* border: 2px dotted greenyellow; */
+    /* altura total de la pantalla */
+    /* height: 100vh; */
+}
+
+
+.inicio{
+    /* background- image le damos la ruta url ../ salimos i mandamos a llamar la carpeta*/
+    background-image: url(../img/header.jpg);
+    /* background-size le decimos que cubra toda la pantalla */
+    background-size: cover;
+    height: 100vh;
+    background-position: center;   
+}
+.contenedor{
+    /* max-width: 1200px;
+    border: 2px solid red;
+    height: 80vh; */
+    /* top right bottom left */
+    /* margin: 0 auto 0 auto; */
+
+}
+.barra{
+    display: flex;
+    justify-content: space-between;
+    /* alinea a la misma altura que el que tiene a lado */
+    align-items: center;
+    padding: 15px;
+}
+/* mandamos a llamar herencia padre hijo */
+.navegacion a{
+    color: #fff;
+    /* tex decoretion quita las lineas  */
+    text-decoration: none;
+    /* combiamos estilo de fuente extraida de google fonts */
+    font-family: 'Raleway', sans-serif;
+    /* le damos tamaño a la fuente y queda fija */
+    font-size: 15px;
+    /* le damos una separacion de 10px  */
+    margin-left: 10px;
+}
+/* hover le damos una apariencia flotante */
+.navegacion a:hover{
+    font-size: 18px;
+    color: goldenrod;  
+}
+
+.contenido-header{
+    height: 100%;
+    display: flex;
+    color: #fff;
+    /*  */
+    flex-direction: column;
+    /*  */
+    justify-content: space-between;
+}
+
+.footer-header{
+    margin-left: 20PX;
+}
+
+
+/* id iconos es para darle estilo a section #1 */
+#iconos{
+    /* dashed punteado mas grande */
+    /* border: 2px dashed rgb(255, 47, 238); */
+    /* altura 60% de la pantalla vh */
+    /* height: 60vh; */
+}
+
+.titulo{
+    text-align: center;
+}
+
+.iconos-nosotros{
+    /*  */
+    /* border: 2px dashed green; */
+    display: flex;
+    justify-content: space-around;
+
+}
+.icono{
+    /* border: 2px solid red; */
+    text-align: center;
+    /* nos permite darle una medida para darle flexibilidad  a la caja  se divide en 3 del 100% menos 2pixeles de cada lado*/
+    flex-basis: calc(33.3% - 2rem);
+}
+.icono p{
+    text-align: justify;
+}
+.icono h3:hover{
+    font-size: 30px;
+}
+
+
+
+/* id principal para dar estilo a main */
+#principal{
+    /* border: 2px solid cyan; */
+    /* height: 100vh; */
+}
+
+.slider{
+    width: 95%;
+    margin: auto;
+    /* esta propiedad overflow (desbordamiemto) hidden lo oculta */
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    /* TODO aqui va ir la animacion */
+    animation: cambio 15s infinite alternate linear; 
+}
+.slider .card{
+    /* border: 2px solid fuchsia; */
+    /*  */
+    background-color: #232323;
+    border-bottom-left-radius: 200px;
+    border: 5px solid #fff;
+
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider .card-body{
+    border-top: 5px solid #fff;
+    display: flex;
+    border: 3px solid goldenrod;
+    border-bottom-left-radius: 200px;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.slider img{
+    width: 100%;
+    height: 60vh;
+
+}
+
+
+
+.detalles{
+    color: #fff;
+    /*  */
+    padding: 20px;
+    /*  */
+    margin-left: 10%
+
+
+}
+.opaco{
+    color: #4F4F4F;
+
+}
+.boton{
+    width: 120px;
+    /*  */
+    height: 120px;
+    /*  */
+    border: 3px solid goldenrod;
+    /*  */
+    text-align: center;
+    /*  */
+    background-color:#191B26;
+    /*  */
+    border-radius: 25px;
+    
+
+}
+
+a{
+    /*  */
+    margin-top: 5px;
+    /*  */
+    color: #fff;
+    /*  */
+    text-decoration: none;
+
+}
+
+.boton img{
+    /*  */
+    width: 100px;
+    /*  */
+    height: 80px;
+
+}
+.centro{
+    width: 40%;
+    margin-left: 30%;
+    border: solid 3px goldenrod;
+    background: #191B26;
+    border-radius: 15px;
+    text-align: center;
+    height: auto;
+    
+}
+.centro img{
+    height: 100px;
+    width: 100px;
+}
+ 
+
+/* keyfremes */
+@keyframes cambio{
+    /*  */
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    /*  */
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+
+    /*  */
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+
+    /*  */
+    75%{margin-left: 0;}
+    100%{margin-left: 0;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* id contacto para dar estilo a section #2 */
+#contacto{
+    /* border: 2px dotted rgb(223, 209, 17); */
+    /* height: 50vh; */
+
+}
+
+.datos{
+    margin-top:5%;
+    
+    width: 90%;
+    
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+
+}
+ .card{
+     background-color: #191B26;
+     border-radius: 15px;
+     border: 3px solid goldenrod;
+ }
+ .card .card-header{
+     text-align: center;
+     padding: 15px;
+
+ }
+ .card .card-header .card-title{
+     color: white;
+     font-size: 1.5em;
+     padding-bottom: 15px;
+     margin: 15px auto;
+     border-bottom: 2px solid #ff5a5f;
+     width: 90%;
+ }
+ form{
+     display: flex;
+     flex-direction: column;
+     /* arriba 0 a lado 35 toma el cero de abajo y da 25 a los lados */
+     padding: 0 35px 25px;
+
+ }
+ form .input{
+     border: none;
+     outline: none;
+     display: block;
+     color: white;
+     background-color:  #191B26;
+     padding: 10px 0 25px 0;
+     border-bottom: 1px solid #4F4F4F;
+     margin: 10px 0;
+     transition: all 0.5s;
+ }
+ 
+form .input:focus{
+    padding: 10px 0 40px 0; 
+}
+
+form .input:focus::-webkit-input-placeholder{
+    color: #fff;
+}
+ form .btn{
+     display: inline-block;
+     background-color: #ff5a5f;
+     color: #fff;
+     border: none;
+     border-radius: 2px;
+     padding: 15px;
+     margin-top: 25px;
+     align-self: flex-end;
+     cursor: pointer;
+ }
+ form .btn:hover{
+     background-color: #d8191f;
+ }
+
+ 
+
+
+/* label{
+    
+    margin-left: 50px;
+    
+    color: #fff;
+}
+input{
+   
+    background: none;
+   
+    outline: none;
+   
+    border: none;
+}
+.datos button{
+    
+    width: 100px;
+    
+    height: 100px;
+
+    margin: 5% 0 5% 75%;
+    border-radius: 50%
+    
+}
+
+.datos button:hover{
+
+width: 110px;
+
+height: 110px;
+
+margin: 5% 0 5% 75%;
+
+background-color:goldenrod;
+
+color: #fff;
+} */
+
+
+
+/* id blog es para darle estilo a article */
+#blog{
+    margin-top: 3%;
+    margin-bottom: 2%;
+    /* double nos da doble linea */
+    /* border: 2px double rgb(219, 4, 173); */
+    /* height: 100vh; */
+    width: 60%;
+    float: left;
+}
+
+
+.container{
+    overflow: hidden;
+    position: relative;
+
+}
+
+
+.caja-blog{
+    border: 2px solid #383838;
+   width: auto;
+   height: 25vh;
+    background-color: #010101;
+    transition: all .7s;
+    /* la propiedad position de css especifica como un elemento */
+    position: relative;
+    text-align: center;
+    cursor: pointer;  
+}
+.caja-blog img{
+    width: 100%;
+    height: 25vh; 
+    
+    opacity: .2;
+    transition: all .7s;
+}
+.caja-blog img:hover{
+    opacity: 1;
+    height: 75vh;  
+}
+.caja-blog:hover{
+    height: 75vh;
+    
+}
+p#headline{
+    position: absolute;
+    margin-left: -200%;
+    font-size: 1.5rem;
+    color: #fff;
+    top: 10%;
+    left: 10%;
+    transition: margin-left 1.5s;
+}
+p#descripcion{
+    position: absolute;
+    font-size: 1rem;
+    color: #fff;
+    margin-left: 2%;
+    transition: margin-top 1.5s;
+    margin-top: 300px;
+}
+
+.caja-blog:hover p#headline {
+    margin-left: 10%;
+}
+.caja-blog:hover p#descripcion{
+    margin-top: -50px;
+}
+.text-blog{
+    position: absolute;
+    color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 1em;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+}
+
+.text-blog:hover{
+    color: goldenrod;
+    letter-spacing: .05em;
+    text-shadow: 1px 1px 8px  #AAABA9, 0 0 5px orangered, 0 0 1px #6D6E6E;
+    transition: all 1.5s;
+}
+
+
+
+
+
+
+/* id comentarios es para estilo a section #3  */
+#comentarios{
+    /* border: 2px solid rgb(4, 219, 4); */
+    /* height: 100vh; */
+    width: 35%;
+/* float right le decimos que se vaya hacia la derecha */
+    float: right;
+    margin-top: 3%;
+}
+
+.comentario{
+    background:#191B26;
+    width: 95%;
+    /*  */
+    border-radius: 20px;
+    /*  */
+    text-align: justify;
+    /*  */
+    font-size: 12px;
+    /*  */
+    color: #D8D6C8;
+    /*  */
+    padding: 5px;
+    /*  */
+    border: 4px dashed gold;
+    /*  */
+    margin-top:10px;      
+}
+.user{
+    text-align: right; 
+}
+
+
+/* id pie es para darle estilo a footer */
+#pie{
+    /* esta propiedad clear both indica, borra toda las configuraciones que tienen las de arriba (deja en cerotodo) */
+    clear: both;
+    /* border: 2px solid rgb(16, 211, 236); */
+    display: flex;
+    height: 15vh;
+    background-color: #191b26;
+    padding: 15px;
+    justify-content: center;
+
+
+}

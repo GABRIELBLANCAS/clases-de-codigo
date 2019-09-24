@@ -1,0 +1,15 @@
+body{
+    background-color: coral;
+    text-align: center;
+}
+ol{
+    background-color: aqua;
+    color: blueviolet;
+    text-align: left;
+    width: 90%;
+}
+ul{
+    background-color: crimson;
+    width: 90%;
+    text-align: left;
+}

@@ -1,0 +1,40 @@
+/* selector por nombre de etiqueta o por elemento */
+h1{
+    background: black;
+    color:white;
+}
+/* selector por id #(numeral, hshtag, gato) */
+#miIdDeGabriel{
+    background:red;
+    color:yellow}
+/* selector por clase se usa el caracter . ( punto) */
+.miClaseDeGabriel{
+    background:blue;
+    color:green;
+}
+
+#miIdDeGabriel1{
+    background: orange;
+    color:blue;
+}
+
+#miIdDeGabriel2{
+    background: pink;
+    colr:purple
+}
+ #miIdDeGabriel3{
+     background:brown;
+     color:yellow;
+ }
+ .miClaseDeGabriel1{
+     background: grey;
+     color:green;
+ }
+
+    
+    
+    
+
+ 
+
+ 

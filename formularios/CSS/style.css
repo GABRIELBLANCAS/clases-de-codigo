@@ -1,0 +1,74 @@
+body{
+    background-color: lightgreen;
+    font-family: monospace;
+}
+h1{
+    text-align: center;
+    background-color: fuchsia;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 50px;
+    border: 2px solid purple;
+}
+form{
+    background-color: yellow;
+    text-align: left ;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 30px;
+    border-radius: 30px;
+    border: 2px solid orangered;
+    height: auto;
+}
+
+
+button{
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    background-color: rgb(12, 210, 245);
+    border: 2px solid blue;
+    margin-left: 100px;
+    outline: none;
+    margin-bottom: 10px;
+    box-shadow: rgb(141, 26, 26) 5px 5px 5px;
+    font-size: 20px;
+
+}
+
+button:hover{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(141, 26, 26);
+    color: beige;
+    box-shadow: blue 5px 5px 5px;
+    border: 2px solid orangered;
+
+}
+
+
+label{
+    /* estoy asignando color a las etiquetas label  */
+    color: rgb(141, 26, 26);
+    font-family: 'Roboto';
+    margin-left: 20px;
+
+}
+input{
+    /* con el atributo none le decimos que no queremos el background */
+    background: none;
+    /* con el atributo none le decimos que no queremos que marque el borde */
+    border: none;
+    /* le damos una linea en lugar del borde con color que escogimos */
+    border-bottom: 2px solid rgb(141, 26, 26);
+    /* con la propiedad outline le quitamos el border */
+    outline: none;
+    /* le damos tamaño de la fuente */
+    font-size: 30px;
+    /* le damos ancho del label */
+    width: 60%;
+    /* le damos color a la fuente que van a escribir */
+    color: rgb(16, 16, 112);
+}
+   
+    

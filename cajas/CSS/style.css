@@ -1,0 +1,86 @@
+body{
+    background-color: brown;
+}
+}
+h1{
+    text-align: center;
+}
+.box{
+
+    text-align: center;
+    border: 2px solid cyan;
+    width: 22%;
+    height: 150px;
+    float: left;
+    margin-left: 2%;
+}
+/* .box2{
+    border: 2px solid yellow;
+    width: 30%;
+    height: 150px;
+    text-align: right;
+    margin-left: 3%;
+    float: left;
+
+}
+.box3{
+    float: left;
+    border: 2px solid rgb(91, 179, 69);
+    width: 30%;
+    height: 150px;
+    margin-left: 36%;
+
+
+}
+.box4{
+    border: 2px solid violet;
+    width: 30%;
+    height: 150px;
+    margin-left: 69%;
+} */
+.box2{
+    border: 2px solid black;
+    float: left;
+    width: 45%;
+    height: 300px;
+    margin-left: 3%;
+    margin-top: 5%;
+    color: chartreuse
+}
+
+/* estamos dando estilo a una caja principal con un borde amarillo con un margen automatico */
+
+.principal{
+    /* con border damos un margen de 2 px con la proiedad solid */
+    border: 2px solid greenyellow;
+    /* con max- width damos cantidad de pixeles con un estimado maximo de 1900 pixeles */
+    max-width: 1200px;
+    /* con margin damos m */
+    margin: 0 auto 0 auto;
+    /* en este display le dimos la pro´piedad de flex ( pantalla flexible) */
+    display: flex;
+    /* damos epacio justificado del contenido,  */
+    justify-content: space-between;
+    /*  con padding damos distancia interna a los div */
+    padding: 40px;
+    
+
+}
+/* estamos dando estilo a una caja secundaria ( dentro d la caja principal) */
+.secundario{
+    flex-basis: calc(25% - 2rem);
+    text-align: center;
+    height: 700px;
+    border: 2px solid black;
+     
+}
+.principal1{
+    border: 2px solid green;
+    max-width: 1800px;
+    margin: 5% auto 5% auto;
+    display: flex;justify-content: space-around;
+    padding: 20px;
+}
+.secundrio2{
+
+}

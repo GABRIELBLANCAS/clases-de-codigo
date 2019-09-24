@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* alinea el texto ( centro) */
+    text-align: center;
+}
+#agrupar{
+    width: 960px;
+    margin: 15px auto;
+    
+
+}
+header, nav, section, aside, footer{
+    display: block;
+}
+#cabecera{
+    background:#fffBB9;
+    border: 1px solid #999999;
+    padding: 20px;
+    height: 90px;
+    
+}
+h1{
+    font: bold 10px verdana, sans-serif;
+}
+h2{
+    font: bold 8px verdana, sans-serif;
+}
+#menu{
+    padding: 5px 15px;
+    background: #cccccc;
+    text-align: left;
+
+}
+/* estilo por herencia */
+#menu li{
+    display: inline-block;
+    /* list-style (puntos) */
+    list-style: none;
+    padding: 15px;
+}
+#seccion{
+    float: left;
+    width: 630px;
+    border: 2px solid greenyellow;
+    margin: 20px;
+    height: auto;
+    text-align: left;
+}
+#columna{
+    float: left;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    background: #cccccc;
+    height: 92vh;
+    border: 2px solid cyan;
+}
+#pie{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid gray;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+article{
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+#cabecera img{
+    width: 70px;
+    height: 70px;
+    margin-right: 950px;
+    
+}
+.h1{
+    /* background-color: chocolate; */
+    width: 70PX;
+    margin-left: 400px;
+    float: left;
+    height: 20px;
+    
+    
+}
+.img{
+    float: left;
+    border: 2px solid green;
+    width: 70px;
+    height: 70px;
+    margin-top: 5px;
+}
+.h2Cactus{
+    float: left;
+    height: 60px;
+}
+.cactus{
+    font-size: 65px;
+    font-family: 'Monoton', cursive;
+    color: #439643;
+    margin-left: 5px;
+}
+a{
+    color: darkviolet;
+}
+a:hover{
+    font-size: 20px;
+    color: #439643;
+    font-family: 'Monoton', cursive;
+}
+#columna li{
+    display: inline-block;
+    /* list-style (puntos) */
+    list-style: none;
+    padding: 15px;
+}
+ h1:hover{
+    font-size: 20px;
+    color: #439643;
+    font-family: 'Monoton', cursive;
+}
+ h2:hover{
+    font-size: 15px;
+    color: #439643;
+    font-family: 'Monoton', cursive;
+}
+ section p:hover{
+    font-size: 20px;
+    color: #439643;
+    font-family: 'Monoton', cursive;
+}
+img:hover{
+    width: 95%;
+    height: 95%;
+}
+.img:hover{
+    width: 100px;
+    height: 100px;
+}
+#cabecera img:hover{
+    width: 100%;
+    height: 100%;
+}
+button{
+    width: 50px;
+    height: 30px;
+    border-radius: 80px;
+    background-color:  #6be46b;
+    border: 2px solid cyan;
+    margin-left: 100px;
+}
+
+
+
+

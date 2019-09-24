@@ -1,0 +1,34 @@
+body{
+    background-color: rgb(101, 245, 120);
+}
+.titlle{
+    width: 50%;
+    background-color: blueviolet;
+    margin-left: 25%;
+    font-size: 1.5cm;
+    text-align: center;
+    color: fuchsia;
+    border-radius: 40px;
+
+}
+.titlle2{
+    background-color: blueviolet;
+    color: gold;
+    width: 85%;
+    text-align: center;
+    font-size: 3cm;
+    border-radius: 35px;
+}
+.titlle3{
+    background-color: chocolate;
+    color: blue;
+    
+}
+.titlle4{
+    background-color: fuchsia;
+    color: cornsilk
+}
+.titlle5{
+    background-color: crimson;
+    color: chartreuse
+}

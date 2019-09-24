@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>tablas</title>
+</head>
+<body>
+    <h1 class="myEstilo">tablas</h1>
+    
+    <!-- con etiqueta table hacemos una tabla de nombre, direccion -->
+    <table >
+        <!-- esta etiqueta (caption) podemos nombrar nuestra tabla-->
+        <caption>TABLA GENERAL </caption>
+        <!-- con etiqueta tr (table row )nos hace una fila -->
+        <tr>
+            <!-- th ( table header) hace un ancabezado dentro de la fila tr-->
+            <th>NOMBRE</th>
+            <th>EDAD</th>
+            <th>SEXO</th>
+            <th>DIRECCION</th>
+            <th>TELEFONO</th>
+        </tr>
+        <tr>
+            <!-- td ( table data ) nos va a reflejar el dato que se pidio en th -->
+            <td>GABRIEL</td>
+            <td>45</td>
+            <td>MASCULINO</td>
+            <td>NORTE 86 #4424 NUEVA TENOCHTITLAN</td>
+            <td>5513597119</td>
+        </tr>
+        <tr>
+            <td>GABRIEL</td>
+            <td>45</td>
+            <td>MASCULINO</td>
+            <td>NORTE 86 #4424 NUEVA TENOCHTITLAN</td>
+            <td>5513597119</td>
+            
+        </tr>
+       
+        <tr>
+            <td>ULISES</td>
+            <td>10</td>
+            <td>MASCULINO</td>
+            <td>NORTE 86 #4424 NUEVA TENOCHTITLAN</td>
+            <td>5513597119</td>
+        </tr>
+        <tr>
+            <td>JOHANA</td>
+            <td>20</td>
+            <td>FEMENINO</td>
+            <td>NORTE 86 #4424 NUEVA TENOCHTITLAN</td>
+            <td>5542471820</td>
+        </tr>
+        <tr>
+            <td>PEDRO</td>
+            <td>65</td>
+            <td>MASCULINO</td>
+            <td> FUENTE DE SAN JOSE # 36</td>
+            <td>5519815237</td>
+        </tr>
+        
+    </table>
+    <hr>
+
+    <table>
+        <caption>tabla con colspan</caption>
+        <tr>
+            <th>NOMBRE</th>
+            <th>EDAD</th>
+            <!-- con colspan podemos dar 2 espacios a un th -->
+            <th colspan="2">TELEFONO</th>
+            
+        </tr>
+        <tr>
+            <th></th>
+            <th></th>
+            <th>casa</th>
+            <th>celular</th>
+        </tr>
+        <tr>
+            <td>GABRIEL</td>
+            <td>45</td>
+            <td>555555555</td>
+            <td>777777777</td>
+
+        </tr>
+        <tr>
+            <td>ALEJANDRO</td>
+            <td>15</td>
+            <td>333333333</td>
+            <td>444444444</td>
+            
+        </tr>
+        <tr>
+            <td>JOHANA</td>
+            <td>30</td>
+            <td>222222222</td>
+            <td>111111111</td>
+        </tr>
+        <tr>
+            <td>HUGO</td>
+            <td>35</td>
+            <td>999999999</td>
+            <td>888888888</td>
+        </tr>
+    </table>
+    <hr>
+    <table>
+        <caption>tabla con etiqueta rowspan</caption>
+        <tr>
+            <th>NOMBRE</th>
+            <th>DIRECCION</th>
+            <th>EDAD</th>
+            <th>TELEFONO</th>
+        </tr>
+        <tr>
+            <td>GABRIEL</td>
+            <td>NORTE 86</td>
+            <td>45</td>
+            <td>66666666</td>
+        </tr>
+        <tr>
+            <td>ALEJANDRO</td>
+            <td>NORTE 86</td>
+            <td>15</td>
+            <td>111111111</td>
+        </tr>
+    </table>
+    <table border="1">
+        <caption>Tablas con combinacion de filas</caption>
+        <tr>
+            <th>Encabezado 1</th>
+            <th>Encabezado 2</th>
+            <th>Encabezado 3</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Celda combinada 1</td>
+            <td>Celda normal</td>
+            <td rowspan="2"> Celda combinada 2</td>
+        </tr>
+        <tr>
+            <td>Celda normal2</td>
+        </tr>
+
+    </table>
+    <hr>
+    <table>
+        <caption>tabla con rowspan</caption>
+        <tr>
+                <th>NOMBRE</th>
+                <th>TELEFONO</th>
+                <th>EDAD</th>
+                
+            </tr>
+            
+            <tr>
+                <td rowspan="2">GABRIEL</td>
+                <td>555555555</td>
+                <td rowspan="2">45</td>
+                
+    
+            </tr>
+            <tr>
+                <td>111111111</td>
+                
+                
+                
+                
+            </tr>
+                <tr>
+                    <td rowspan="2">ALEJANDRO</td>
+                    <td>333333333</td>
+                    <td rowspan="2">15</td>
+                </tr>
+                <tr>
+                    <td>999999999</td>
+                </tr>
+            <tr>
+                <td rowspan="3">JOHANA</td>
+                <td>222222222</td>
+                <td rowspan="3">25</td>
+            </tr>
+            <tr>
+                <td>242424242</td>
+            </tr>
+            <tr>
+                <td>717171717</td>
+            </tr>
+            <tr>
+                <td>HUGO</td>
+                <td>674833330</td>
+                <td>40</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="4"></td>
+                <td>666666666</td>
+                <td rowspan="4">50</td>
+            </tr>
+            <tr>
+                <td>010101010</td>
+            </tr>
+            <tr>
+                <td>414327413</td>
+            </tr>
+            <tr>
+                <td>772872973</td>
+            </tr>
+
+    </table>
+    <hr>
+    <!-- solomente las clases pueden tener herencia, puedes poner mas de 2 clases en una etiqueta -->
+    <h1 class="estiloPorClase estiloPorClase2">estilo por clase .</h1>
+    
+    
+</body>
+</html>

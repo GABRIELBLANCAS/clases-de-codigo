@@ -1,0 +1,80 @@
+body{
+    background-color: black;
+    color: orange;
+    border: 2px solid rgb(245, 59, 2);
+    width: 95%;
+    height: 600px;
+    margin-left: 2.5%;
+}
+/* div principal con checkbox y button */
+div{
+    border: 2px solid orangered;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 6%;
+    height: 220px;
+     float: left;
+}
+h1{
+    text-align: center;
+    color: rgb(245, 59, 2)
+}
+/* div con imagenes y lista de paises */
+.div1{
+    width: 86.5%;
+    margin-top: 30px;
+    height: 260px;
+}
+.p1{
+    text-align: center;
+    margin-top: 3px;
+}
+/* 4 div cada una con pais e imput */
+.ciudades{
+    width: 18%;
+    height: 180px;
+    margin-left: 55px;
+    margin-top: 10px;
+}
+/* estilo para imagenes */
+img{
+    width: 90%;
+    height: 110px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* estilo para input (palabra "ver") */
+a{
+    color: rgb(43, 135, 226);
+    margin-left:80px;
+}
+/* div para formulario input cafe, agua,leche */
+.form{
+    width: 39%;
+    height: 60px;
+    margin-left: 35%;
+    border: 2px solid black;
+    
+}
+/* div para formulario input de genero hombre, mujer, otro */
+.form2{
+    width: 30%;
+    height: 110px;
+    margin-left: 35%;
+    margin-top: 5px;
+    border: 2px solid black;
+    
+}
+/* estilo para p dentro de div button */
+p{
+    text-align: center;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+
+    

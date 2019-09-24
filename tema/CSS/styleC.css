@@ -1,0 +1,11 @@
+body{
+    background-color: crimson;
+}
+.titlleC{
+    background-color: greenyellow;
+    color: blueviolet;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    border-radius: 80px;
+}

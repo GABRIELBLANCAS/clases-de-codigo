@@ -1,0 +1,25 @@
+body{
+    background-color: dodgerblue;
+    text-align: center;
+    
+}
+h1{
+    background-color: crimson
+}
+div{
+    border: 2px solid brown;
+    width: 27%;
+    height: auto;
+    float: left;
+    padding: 30px;
+    margin-left: 2%;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
+.imagen2{
+    display: flex;
+    margin: 4% 1% auto 1%;
+
+}

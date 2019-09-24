@@ -1,0 +1,99 @@
+/* div principal con heder, nav, section, aside y footer dentro */
+#div{
+    width: 100%;
+    border: 2px solid red;
+    height: 15px auto;
+    text-align: center;
+}
+/* imagen del logotipo */
+.img1{
+    width: 150px;
+    height: 150px;
+
+
+}
+/* div con imegen del logotipo dentro */
+.logo{
+    width:200px;
+    height: 200px;
+}
+/* header con logo y nombre de la tienda con backgroud azul */
+
+#header{
+    background: rgb(11, 82, 212);
+    border: 2px solid rgb(102, 179, 106);
+    height: 300px;
+}
+/* nav con listas desordenadas (a)  con background gris*/
+#nav {
+    background-color: darkgray;
+    padding: 25px;
+    text-align: left;  
+}
+/* div con lista a productos, contacto, comprar */
+.divlista{
+    text-align: left;
+    float: left;
+    margin: 20px 10px;
+
+}
+/* section con un div con informacion e imagenes del producto con margen verde*/
+#section{
+    float: left;
+    width: 58%;
+    margin: 20px;
+    height: 70vh;
+    border: 2px solid green;
+
+}
+/* aside con margen fuchsia con informacion secundaria dentro de un div  */
+#aside{
+    float: left;
+    width: 38%;
+    border: 2px solid fuchsia;
+    height: 70vh;
+    margin: 20px 0;
+}
+
+#footer{
+    border: 2px solid orangered;
+    clear: both;
+    text-align: center;
+    padding: 50px;
+
+}
+/* estilo para las pagina 2 */
+.pagina2{
+    background-color: aqua;
+}
+/* estilo para la pagina 3 */
+.pagina3{
+    background-color: mediumseagreen;
+}
+/* estilo para la pagina 4 */
+.pagina4{
+    background-color: dodgerblue;
+}
+/* div dentro de section con informacion */
+.info{
+    width:300px;
+    margin-top: 2%;
+    float: left;
+}
+/* div dentro de aside con informacion secundaria */
+.divaside{
+    margin: 70px;
+}
+/* div dentro de footer para informacion de direccion */
+.divfooter{
+    /* ancho */
+    width: 250px;
+    margin-left: 40%;    
+}
+table{
+    background-color: deepskyblue;
+    width: 90%;
+    text-align: center;
+}
+
+

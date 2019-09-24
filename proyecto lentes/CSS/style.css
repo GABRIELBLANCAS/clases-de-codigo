@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+
+    
+    
+
+.cabecera{
+    background-image: url(../img/logomundo.jpg);
+    height: 70vh;
+   background-position: center;
+   /* tamaño de la imagen forza el tamaño */
+   background-size: cover; 
+   color: white;
+   font-size: 50px; 
+   width: 100vw; 
+}
+
+.slogan{
+    width: 380px;
+    /* border: 2px solid white; */
+    height: 40px;
+    margin-left: 500px; 
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+.nav{
+    /* border: 2px solid green; */
+    width: 690px;
+    height: 65px;
+    margin-top:195px;
+    margin-left: 500px;   
+}  
+.navegacion div{
+    width: 141px;
+    float: left;
+    margin-left: 30px;
+    font-size: 25px;
+    background: #da3513;
+    height: 40px;
+    text-align: center;
+    border-radius: 70px;
+}  
+.navegacion a{
+    color: white;
+    text-decoration: none;
+}
+.navegacion a:hover{
+    font-size:28px; 
+}
+section img{
+    width: 400px;
+    height: 400px;
+
+}
+.img1{
+    width: 400px;
+    height: 800px;
+    float: left;
+    margin-left: 15px;
+}
+.p{
+    background: #13da99;
+    width: 400px;
+    height: 804px;
+    margin-left: 420px;
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.p1{
+    width: 350px;
+    height: auto;
+    margin-left: 25px;
+}
+.lista{
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+}
+li:hover{
+    font-size: 24px;
+    color: #da3513
+}
+.p2{
+    width: 350px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 25px;
+    
+}
+.lista2{
+    width: 350px;
+    height: auto;
+    margin-top: 70px
+}
+.aside-p{
+    width: 500px;
+    height: 804px;
+}
+
+
+    
+
