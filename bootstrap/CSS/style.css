@@ -1,0 +1,16 @@
+
+h5{
+    color: black;
+}
+p{
+    color: black;
+    
+}
+/* .imag1{
+    width: 100vw;
+} */
+
+.carousel-item img{
+    width: 100vw;
+    height: 95vh;
+}

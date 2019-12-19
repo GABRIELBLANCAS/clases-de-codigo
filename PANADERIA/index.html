@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="" content="G.B.M.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Panaderia</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Panaderia Tenochtitlan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="instalaciones.html">Instalaciones<span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Productos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="panblanco.html">Pan blanco</a>
+                        <a class="dropdown-item" href="reposteria.html">Reposteria</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pasteleria.html">Pasteleria</a>
+                    </div>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form> -->
+        </div>
+    </nav>
+
+    <div class="container py-2 mt-2">
+        <div class="jumbotron">
+            <h1 class="display-4">Panaderia Nueva Tenochtitlan!</h1>
+            <p class="lead">Ofreciendo el mejor pan desde 1945.</p>
+            <hr class="my-4">
+            <p>LLlevando el bolillo a su mesa para que disfrute en familia.</p>
+            <a class="btn btn-primary btn-lg" href="#principal" role="button">Comprar</a>
+        </div>
+    </div>
+
+    <!-- EMMET   -->
+    <!--   div.container.mt-5.border.border-danger#principal>(div.row.border.border-info>(div.col-md-3.m-4.border.border-warning>div.card>(div.card-header.bg-dark.text-light>h3>{text cambio})+(div.card-body>img)+(div.card-footer.bg-dark.text-light>button.btn.btn-info.btn-block>{comprar}))*3)*3 -->
+
+    <!-- vista principal -->
+    <!-- <div class="container mt-5 border border-danger" id="principal" >
+
+        <div class="row ">
+            <div class="col-md-3  m-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>Concha</h3>
+                    </div>
+                    <div class="card-body">
+                        <img src="https://cdn.pixabay.com/photo/2014/11/16/04/27/bread-533038_960_720.jpg" alt="concha" class="img-thumbnail rounded">
+                    </div>
+                    <div class="card-footer bg-dark text-light">
+                        <button class="btn btn-md float-right btn-info">texto</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-3 border border-secondary m-4">
+       						card   
+          
+          </div>
+            <div class="col-md-3 border border-secondary m-4">
+          card
+          </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 border border-secondary m-4"></div>
+            <div class="col-md-3 border border-secondary m-4"></div>
+            <div class="col-md-3 border border-secondary m-4"></div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 border border-secondary m-4"></div>
+            <div class="col-md-3 border border-secondary m-4"></div>
+            <div class="col-md-3 border border-secondary m-4"></div>
+        </div>
+
+    </div> -->
+    <hr>
+    <div class="container mt-5" id="principal">
+        <div class="row ">
+            <!-- la clase col es para columnas divide el ancho de las pantallas en 12 colomnas -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>CUERNITO</h3>
+                    </div>
+                    <div class="card-body"><img src=" https://cdn.pixabay.com/photo/2016/01/21/10/08/croissant-1153402_1280.jpg
+                        " alt="cuernito" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block "
+                            data-toggle="modal" data-target="#panCuernito">DETALLES</button>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>DONAS</h3>
+                    </div>
+                    <div class="card-body"><img src=" https://cdn.pixabay.com/photo/2018/03/03/12/22/donuts-3195564_1280.jpg 
+
+                        " alt="donas" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panDonas">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>PAN DE MUERTO</h3>
+                    </div>
+                    <div class="card-body"><img
+                            src="https://image.freepik.com/foto-gratis/fiesta-mexicana-pan-muerte_58797-40.jpg" alt=""
+                            class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panDeMuerto">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>PASTELERIA</h3>
+                    </div>
+                    <div class="card-body"><img
+                            src="https://image.freepik.com/foto-gratis/deliciosas-mini-tortas-vector-buffet_1262-1801.jpg?1"
+                            alt="PASTEL PARA TUS EVENTOS" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panPastel">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>ROL DE CANELA</h3>
+                    </div>
+                    <div class="card-body"><img src="https://cdn.kiwilimon.com/recetaimagen/10374/th5-640x426-3429.jpg
+                        " alt="rol de canela" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panRol">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>BISQUETES</h3>
+                    </div>
+                    <div class="card-body"><img src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/bisquet.jpg
+                        " alt="BISQUETES" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panBisquetes">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>GALLETAS NAVIDEÑAS</h3>
+                    </div>
+                    <div class="card-body"><img src="https://cdn.pixabay.com/photo/2017/11/04/17/26/christmas-cookies-2918172_1280.jpg
+                        " alt="GALLETAS NAVIDEÑAS" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panGalletas">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>PAN INTEGRAL</h3>
+                    </div>
+                    <div class="card-body"><img src=" https://cdn.pixabay.com/photo/2016/05/26/18/18/cereals-1417868__480.jpg
+                        " alt="PAN INTEGRAL" class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panIntegral">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4 ">
+                <div class="card">
+                    <div class="card-header bg-dark text-light">
+                        <h3>CONCHA</h3>
+                    </div>
+                    <div class="card-body"><img
+                            src="https://cdn.pixabay.com/photo/2014/11/16/04/27/bread-533038_960_720.jpg" alt="CONCHA"
+                            class="img-thumbnail"></div>
+                    <div class="card-footer bg-dark text-light"><button class="btn btn-info btn-block"
+                            data-toggle="modal" data-target="#panConcha">DETALLES</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- MODALES -->
+
+    <!-- PRUEBA DE MODAL -->
+
+    <!-- Button trigger modal -->
+    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        COMPRAR
+    </button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-lg">Extra large
+        modal</button> -->
+
+
+    <!-- Modal -->
+    <div class="modal fade bd-example-modal-lg" id="panCuernito" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">CUERNITO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://cdn.pixabay.com/photo/2016/01/21/10/08/croissant-1153402_1280.jpg
+                            " alt="cuernito" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p class="ml-4">Cuernito crujiente con relleno de cajeta con una capa de huevo, acompañalo
+                                con chocolate</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panDonas" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">DONAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://cdn.pixabay.com/photo/2018/03/03/12/22/donuts-3195564_1280.jpg
+
+                            " alt="donas" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p>Todas las donas chocolate, moka, azucar, glaseada y decoracion de temporada </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg " id="panDeMuerto" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">PAN DE MUERTO</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://image.freepik.com/foto-gratis/fiesta-mexicana-pan-muerte_58797-40.jpg
+                        " alt="pan de muerto" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p> pan de muerto con azucar, ajonjoli, haz que los muertos que reconoces tengan un feliz
+                                viaje </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panPastel" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">PASTELERIA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://image.freepik.com/foto-gratis/deliciosas-mini-tortas-vector-buffet_1262-1801.jpg?1
+                    " alt="PASTEL" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p> PASTELERIA A TU GUSTO, PARA TODOS TUS EVENTOS</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panRol" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">ROL DE CANELA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://cdn.kiwilimon.com/recetaimagen/10374/th5-640x426-3429.jpg
+                    " alt="ROL DE CANELA" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p> Esquisitos roles con el caracteristico sabor a canela y delicioso glaseado</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panBisquetes" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">BISQUETES</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/bisquet.jpg
+                    " alt="BISQUETES" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p>BISQUETES PARA LOS QUE GUSTAN DE UN EXCELENTE PAN SALADO </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panGalletas" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">GALLETAS NAVIDEÑAS</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://cdn.pixabay.com/photo/2017/11/04/17/26/christmas-cookies-2918172_1280.jpg
+                    " alt="GALLETAS NAVIDEÑAS" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+
+                            <p> Para tus fiestas navideñas, dale a tu familia el mejor sabor con nuestras galletas con
+                                la mejor decoracion </p>
+                        </div>
+                        <div class="col-md-4">
+
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panIntegral" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">PAN INTEGRAL</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src="  https://cdn.pixabay.com/photo/2016/05/26/18/18/cereals-1417868__480.jpg
+                    " alt="PAN INTEGRAL" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p> Pan Integral para los gustos de cuidado mas exigentes </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="modal fade bd-example-modal-lg" id="panConcha" tabindex="-1" role="dialog"
+        aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                    <h5 class="modal-title" id="exampleModalLabel">CONCHA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="text-light">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <img src=" https://cdn.pixabay.com/photo/2014/11/16/04/27/bread-533038_960_720.jpg
+                    " alt="" class="img-thumbnail">
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8">
+                            <p>Concha tradicional, chocolate y nuestras nuevas presentaciones </p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-center">precio: <strong>4.50</strong> p/u</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer  bg-dark">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                    <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                    <a type="button" class="btn bg-primary text-light" href="pedido.html">Hacer pedido</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FIXED-BOTTOM fija el footer en la parte de abajo -->
+    <footer class="footer mt-auto py-3 bg-dark" >
+        <div class="container">
+            <span class="text-muted">G.B.M.&reg;</span>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
+<!-- https://image.freepik.com/foto-gratis/fiesta-mexicana-pan-muerte_58797-40.jpg
+https://image.freepik.com/foto-gratis/rebanada-pastel-queso-hojas-fresa-menta_114579-2055.jpg
+https://image.freepik.com/foto-gratis/delicioso-cheesecake-fresas-menta-plato-ceramica-negro-sobre-fondo-blanco_23-2148067073.jpg -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+    <script src="js/panaderia.js"></script>
+
+
+    <!-- contraseña de web host  VWt*nxOBmhJe@dsvRi!m-->

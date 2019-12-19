@@ -1,0 +1,91 @@
+
+
+/* color #8f40ba */
+.caja2{
+ 
+    overflow: hidden;
+}
+.caja3{
+ height: 50vh;
+    overflow: hidden;   
+}
+
+.caja2 img{
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease;
+    cursor: pointer;
+    /* transform: rotate(90deg); */
+}
+ 
+.caja2 img:hover{
+    transform: scale(1.1);
+}
+.caja3 img{
+    width: 100%;
+ 
+    transition: transform 1s ease;
+    cursor: pointer;
+    /* transform: rotate(90deg); */
+}
+ 
+/* .caja3 img:hover{
+    transform: scale(1.1);
+} */
+.foto2{
+  width: 50%;
+  height: 50vh;
+}
+
+/* imagen de fondo con opacidad */
+.img-fondo{
+  opacity: .6;
+  
+}
+
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+.texto-encima{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+h5{
+ 
+  color: #8f40ba;
+}
+p{
+  line-height: 30px;
+  font-size: 1em;
+  
+}
+p:hover{
+  color: #8f40ba;
+  font-size: 16.5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

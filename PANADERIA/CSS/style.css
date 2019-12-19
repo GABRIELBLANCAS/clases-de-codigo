@@ -1,0 +1,56 @@
+.card-body img{
+    height: 30vh;
+    width: 100vw;
+   
+}
+.card-header{
+    height: 10vh;
+    text-align: center;
+}
+.card-body{
+    height: 34vh;
+}
+.card-footer{
+    height: 10vh;
+}
+.modal .container img{
+    width: 100vh; 
+     
+}
+
+.carousel-caption h5{
+    color: rgb(117, 5, 117);
+
+}
+.carousel-caption p{
+    color: rgb(92, 5, 92);
+}
+ .carousel-item img{
+    height: 90vh;
+    width: 80vw;
+    margin-left: 10vw; 
+}
+ .bd-example{
+     /* background-image: url(../img/pasteleria.jpg); */
+     background-color: #000;
+ }
+ /* .carousel{
+     background-image: url(../img/pasteleria.jpg);
+     opacity: .5;
+ } */
+ .carousel-inner{
+    background-image: url(../img/pasteleria.jpg);
+  
+ }
+ .btn1{
+     background: rgb(221, 84, 43);
+ }
+.container .carousel-caption h1{
+    color: white;
+    text-shadow: 2px 2px 0 rgb(124, 6, 6);
+}
+.container .carousel-caption .p1{
+    color: white;
+    font-size: 35px;
+    text-shadow: 3px 3px 0 rgb(1, 5, 56);
+}
